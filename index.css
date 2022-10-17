@@ -1,0 +1,77 @@
+
+.log-sin{
+    margin-top: 50px;
+}
+.head{
+    display: flex;
+}
+.btns{
+    display: flex;
+    justify-content: end;
+}
+#login{
+    border:none;
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    font-weight:500 ;
+}
+#login:hover{
+    color: rgb(218, 153, 35);
+}
+#signup{
+    border:none;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    font-weight:500 ;
+    padding: 0 28px;
+    border-radius: 0%;
+    height: 40px;
+    margin-top: 8px;
+
+}
+.intro h1{
+    font-size: 40px;
+    margin-top: 140px;
+}
+.intro p{
+    font-size: 24px;
+    color: #686B78;
+}
+#input-search{
+    border-radius: 0%;
+    height: 58px;
+    font-weight: 500;
+    font-style: bold;
+    border: 1px solid orange;
+}
+#input-search:hover{
+    border: 1px solid orange !important;
+}
+#button-addon2{
+    background-color: orange;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 0%;
+    border: none;
+}
+.pop-cities h3{
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10x;
+}
+.pop-cities ul{
+    display: flex;
+    gap: 10px;
+}
+.pop-cities  ul li{
+    list-style: none;
+}
+.pop-cities  ul li a{
+    text-decoration: none;
+    color: #686B78;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 30px 0 10x;
+}
