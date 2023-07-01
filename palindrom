@@ -1,0 +1,22 @@
+#include<stdio.h>
+void isPassorFail(int x){
+    int a =x;
+    int rev =0 ;
+    while(a!=0){
+        int k = a % 10;
+        rev = (rev*10)+k;
+        a/=10;
+    }
+    
+    if(x == rev )
+        printf("Pass");
+    else
+        printf("Fail");
+}
+
+int main() {
+    int x;
+    scanf("%d",&x);
+    isPassorFail(x);
+  
+}
