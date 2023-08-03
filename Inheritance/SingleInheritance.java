@@ -15,9 +15,9 @@ class Child extends Parent{
           System.out.println("Adding a value from Inheritance.Parent "+ d);
       }
 }
+public class SingleInheritance {
 
-    public static void main(String[] args)
-public class SingleInheritance { {
+    public static void main(String[] args) {
         Child c = new Child();
         c.m2();
         c.m1();
