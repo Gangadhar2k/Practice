@@ -50,6 +50,7 @@ public class StackExample {
         System.out.println(  se.push(50));
         System.out.println(  se.push(60));
         System.out.println(  se.push(70));
+        System.out.println(  se.pop(70));
 
     }
 }
